@@ -1,0 +1,7 @@
+ARG_ENABLE('c_uritize', 'c_uritize support', 'no');
+
+if (PHP_C_URITIZE != 'no') {
+	AC_DEFINE('HAVE_C_URITIZE', 1, 'c_uritize support enabled');
+
+	EXTENSION('c_uritize', 'c_uritize.c', null, '/DZEND_ENABLE_STATIC_TSRMLS_CACHE=1');
+}
