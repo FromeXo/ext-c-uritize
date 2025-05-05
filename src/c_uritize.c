@@ -8,10 +8,10 @@
 #include "ext/standard/info.h"
 #include "php_c_uritize.h"
 #include "c_uritize_arginfo.h"
-#include "lib/uriparser/include/uriparser/Uri.h"
-#include "lib/uriparser/include/uriparser/UriBase.h"
-//#include "uriparser/Uri.h"
-//#include "uriparser/UriBase.h"
+//#include "lib/uriparser/include/uriparser/Uri.h"
+//#include "lib/uriparser/include/uriparser/UriBase.h"
+#include "uriparser/Uri.h"
+#include "uriparser/UriBase.h"
 
 PHP_FUNCTION(c_uritize)
 {
